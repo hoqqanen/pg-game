@@ -1,4 +1,4 @@
-import {Renderable} from '../../models/Renderable'
+import {Renderable} from '../../../models/Renderable'
 import ExplodingPoint from './explodingPoint'
 
 export class Scene extends Renderable {

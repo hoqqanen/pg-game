@@ -1,5 +1,5 @@
-import Sequence from '../models/Sequence';
-import {RenderableConstructor} from '../models/Renderable';
+import Sequence from '../../models/Sequence';
+import {RenderableConstructor} from '../../models/Renderable';
 import {Scene as s1} from './scene1';
 import {Scene as subseq} from './subsequence';
 import {Scene as s2} from './scene2';

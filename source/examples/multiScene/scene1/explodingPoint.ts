@@ -1,4 +1,4 @@
-import {Renderable} from '../../models/Renderable'
+import {Renderable} from '../../../models/Renderable'
 
 export default class ExplodingPoint extends Renderable {
   x: number = 0; y: number = 0;

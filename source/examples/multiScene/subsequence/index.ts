@@ -1,6 +1,6 @@
 // Example subsequence!
 
-import Sequence from '../../models/Sequence'
+import Sequence from '../../../models/Sequence'
 import {Scene as s1} from '../scene1';
 import {Scene as s2} from '../scene2';
 

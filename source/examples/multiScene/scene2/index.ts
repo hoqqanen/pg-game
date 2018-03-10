@@ -1,4 +1,4 @@
-import {Renderable} from '../../models/Renderable'
+import {Renderable} from '../../../models/Renderable'
 
 export class Scene extends Renderable {
   render() {
