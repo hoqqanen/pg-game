@@ -1,16 +1,16 @@
-import AbstractScene from '../AbstractScene'
+import AbstractScene from '../AbstractScene';
 
 export class Scene extends AbstractScene {
   constructor(opts) {
-    super();
+    super(opts);
   }
 
   update(dt) {
   }
 
   render(canvas, ctx) {
-    ctx.fillStyle = "blue"
-    ctx.fillRect(0, 0, canvas.width, canvas.height)
+    ctx.fillStyle = "blue";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
   }
   
   isComplete() {

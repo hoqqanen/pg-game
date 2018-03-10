@@ -1,4 +1,6 @@
 export default class AbstractScene {
+  children = [];
+  
   constructor(opts) {
     this.children = [];
   }
