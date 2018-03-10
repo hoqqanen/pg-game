@@ -1,5 +1,7 @@
 // Example of a child object within a scene
 export default class ExplodingPoint {
+  x = 0; y = 0;
+
   constructor() {
     this.x = Math.random()
     this.y = Math.random()
